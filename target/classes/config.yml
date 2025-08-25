@@ -1,0 +1,32 @@
+# ZBedRockBlock — blocks Bedrock players (identified by a name prefix) from this backend.
+# This server is behind a Velocity proxy and runs in offline mode; this plugin enforces
+# a simple rule on the backend: if a player name starts with the configured prefix
+# (case-insensitive) and they don't have the bypass permission, they are kicked.
+#
+# TIP for ajQueue users:
+#   If you use a queue plugin like ajQueue, ensure your queue config removes players when
+#   the backend kick message contains a certain word. Consider including such a word in
+#   your kick-message below (e.g., 'Bedrock').
+#
+enabled: true
+
+# Treat ops like everyone else (ops are NOT auto-whitelisted). They must have the bypass node
+# to get in when matching the Bedrock prefix.
+ignore-ops: true
+
+# Single exact prefix (case-insensitive). Example: "." or "bedrock_"
+bedrock-prefix: "."
+
+# Kick message supports both MiniMessage (e.g., <red>text</red>) and legacy & color codes.
+kick-message: "<red>Bedrock accounts aren’t allowed on this server.</red>"
+
+# Log matching decisions to console?
+debug: false
+
+messages:
+  reload-success: "&aZBedRockBlock config reloaded."
+  no-permission: "&cYou don't have permission."
+  usage-test: "&cUsage: /zbedrockblock test <name>"
+  test-header: "&7Kick preview (as seen by player/proxy):"
+  test-allowed: "&eTest for &f%name%&e: &aALLOWED"
+  test-blocked: "&eTest for &f%name%&e: &cBLOCKED (would be kicked)"
