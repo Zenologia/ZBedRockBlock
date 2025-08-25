@@ -1,0 +1,18 @@
+name: ZBedRockBlock
+main: com.zenologia.zbedrockblock.ZBedRockBlock
+version: 1.0.0
+api-version: '1.21'
+author: Zenologia
+description: Blocks Bedrock-prefixed accounts from joining this backend server.
+commands:
+  zbedrockblock:
+    description: ZBedRockBlock admin commands
+    usage: /<command> reload | test <name>
+    permission: zbedrockblock.admin
+permissions:
+  zbedrockblock.bypass:
+    description: Allows a player to bypass Bedrock blocking.
+    default: false
+  zbedrockblock.admin:
+    description: Allows use of admin commands (reload/test).
+    default: op
