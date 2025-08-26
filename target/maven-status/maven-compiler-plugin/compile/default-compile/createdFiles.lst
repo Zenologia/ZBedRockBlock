@@ -1,0 +1,6 @@
+com\zenologia\zbedrockblock\Commands.class
+com\zenologia\zbedrockblock\ZBedRockBlock$Config.class
+com\zenologia\zbedrockblock\ZBedRockBlock.class
+com\zenologia\zbedrockblock\ComponentToPlain.class
+com\zenologia\zbedrockblock\MessageParser.class
+com\zenologia\zbedrockblock\LoginBlockListener.class
