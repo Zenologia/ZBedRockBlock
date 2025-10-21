@@ -3,7 +3,7 @@
 Blocks **Bedrock** players (identified by a **name prefix**) from joining a **backend Paper** server behind Velocity.  
 No Floodgate hooks; purely name-prefix based. Built for **Paper 1.21.x** on **Java 21**.
 
-## What it does (and doesn’t)
+## What it does (and doesn’t) do
 
 - ✅ **Blocks** players whose Java username **starts with** the configured prefix (case-insensitive).
 - ✅ **Kick reason** supports **MiniMessage** (e.g., `<red>…</red>`) **and** legacy `&` color codes.
