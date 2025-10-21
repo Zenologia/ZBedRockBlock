@@ -163,9 +163,7 @@ Then `/zbedrockblock reload`.
 
 ---
 
-## Changelog (admin-facing)
+## 🧑‍💻 Author
 
-- **1.0.1**
-  - Fixed default `config.yml` quoting for `kick-message` MiniMessage.
-- **1.0.0**
-  - Initial release: prefix block, MiniMessage/legacy kick, bypass, admin commands (reload/test), debug logging, no metrics.
+- **Zenologia**
+- [GitHub Repository](https://github.com/Zenologia/ZBedRockBlock)
