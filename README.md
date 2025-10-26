@@ -167,3 +167,4 @@ Then `/zbedrockblock reload`.
 
 - **Zenologia**
 - [GitHub Repository](https://github.com/Zenologia/ZBedRockBlock)
+- [License](https://github.com/Zenologia/ZBedRockBlock/blob/main/LICENSE)
