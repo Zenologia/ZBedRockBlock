@@ -14,6 +14,12 @@ No Floodgate hooks; purely name-prefix based. Built for **Paper 1.21.x** on **Ja
 
 ---
 
+## Requirements
+- Paper (1.21+)  
+- Java 21+
+
+---
+
 ## Optional dependencies
 - LuckPerms (or any permissions plugin)
 
