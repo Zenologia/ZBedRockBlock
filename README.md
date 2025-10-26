@@ -1,4 +1,4 @@
-# ZBedRockBlock
+# 🌐 ZBedRockBlock
 
 Blocks **Bedrock** players (identified by a **name prefix**) from joining a **backend Paper** server behind Velocity.  
 No Floodgate hooks; purely name-prefix based. Built for **Paper 1.21.x** on **Java 21**.
@@ -11,6 +11,11 @@ No Floodgate hooks; purely name-prefix based. Built for **Paper 1.21.x** on **Ja
 - ✅ **Admin commands** for reload and test.
 - ❌ Doesn’t talk to Floodgate/Geyser APIs or Mojang auth; it’s lightweight and proxy-agnostic.
 - ❌ Doesn’t manage your queue; if you use a queue plugin (e.g., ajQueue), configure it to **remove** players on this kick reason.
+
+---
+
+## Optional dependencies
+- LuckPerms (or any permissions plugin)
 
 ---
 
