@@ -104,18 +104,6 @@ Example approach:
 
 ---
 
-## How it blocks
-
-- Uses `PlayerLoginEvent` at **HIGHEST** priority:
-  - Respects **permissions** cleanly (bypass/admin checks).
-  - Sends a proper **kick reason** back to the proxy (so queue plugins can see it).
-  - Avoids quirks sometimes seen with `AsyncPlayerPreLoginEvent` in offline backends.
-
-**Match rule:**  
-`playerName.toLowerCase(Locale.ROOT).startsWith(prefix.toLowerCase(Locale.ROOT))`
-
----
-
 ## Compatibility
 
 - **Server:** Paper **1.21.x** (including 1.21.8)
