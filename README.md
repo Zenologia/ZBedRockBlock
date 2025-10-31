@@ -112,7 +112,7 @@ Example approach:
 
 ## Compatibility
 
-- **Server:** Paper **1.21.x** (including 1.21.8)
+- **Server:** Paper **1.21.x** (including 1.21.10)
 - **Java:** 21
 - **Proxy:** Works fine behind Velocity. No Velocity/Waterfall helper plugin required.
 - **Other plugins:** Plays nicely with virtually everything; it only reads config and listens for `PlayerLoginEvent`.
